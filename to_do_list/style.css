@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+.card {
+  background-color: #ccfbed30;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #80808033;
+}
+.card-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #1bc1a2;
+  color: cadetblue;
+}
+.header-icon {
+  font-size: x-large;
+  line-height: 20px;
+  align-items: center;
+}
+
+#card-body {
+  width: 100%;
+  overflow-x: auto;
+}
+#subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px 5px 15px;
+  color: cadetblue;
+}
+#delete-all {
+  width: 80px;
+  height: 30px;
+  background-color: #f3467a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+#delete-all:hover {
+  background-color: #e7215c;
+}
+hr {
+  height: 4px;
+  width: 50%;
+  margin: auto;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border: 2px solid #80808047;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+.list-item li {
+  list-style: none;
+  color: #06aa8c;
+}
+.list-item i {
+  padding: 0px 3px;
+  padding: 10px;
+  color: #f3467a;
+}
+.list-item i:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#card-add-item {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: cadetblue;
+  margin-right: 10px;
+  padding-bottom: 3px;
+}
+#card-add-item h3 {
+  margin-left: 3px;
+  color: #f3467a;
+}
+.list-item-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+#list-item-input {
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+  border-top: 1px solid #80808047;
+  border-bottom: 1px solid #80808047;
+  border-left: 1px solid #80808047;
+  border-right: 0px;
+  border-radius: 5px 0px 0px 5px;
+  color: #06aa8c;
+}
+#list-item-input:focus {
+  border: 1px solid #06aa8c;
+  outline: auto;
+  /* tiklaninca cikan borderlari kaldirma */
+}
+#list-item-add-button {
+  width: 10%;
+  border-top: 1px solid #80808047;
+  border-bottom: 1px solid #80808047;
+  border-right: 1px solid #80808047;
+  border-left: 0px;
+  height: 40px;
+  background-color: #1bc1a2;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  font-weight: 600;
+}
+#list-item-add-button:hover {
+  background-color: #06aa8c;
+}
