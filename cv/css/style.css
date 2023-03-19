@@ -1,0 +1,133 @@
+/*
+mavi 
+gri 
+beyaz 
+sol yazilar 
+sag alt baslik #7995CE
+siyah basliklar  - 
+
+*/
+@media screen, print {
+  .container {
+    width: 70% !important;
+  }
+  /** Section one css**/
+  .section-one {
+    color: #e8e8e8;
+    background-color: #356b8b;
+  }
+  .img-container img {
+    box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  .section-one i {
+    color: #e8e8e8;
+  }
+  .contact-icons i {
+    font-size: 20px;
+  }
+  .section-one .intermediate-line {
+    background-color: #e8e8e8;
+    border: 2px solid #e8e8e8;
+  }
+  p {
+    text-align: Justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+  .contact-container a {
+    text-decoration: none;
+    color: #e8e8e8;
+  }
+  .contact-container a:hover {
+    text-decoration: none;
+    color: #709cf7;
+  }
+  .intermediate-line {
+    width: 50%;
+    height: 0px;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  .fa-circle {
+    display: none;
+  }
+  .little-box {
+    width: 15px;
+    height: 15px;
+    background-color: #e8e8e8;
+  }
+  .english {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .swedish {
+    margin-bottom: 20px;
+  }
+  .turkish {
+    margin-bottom: 18px;
+  }
+  .section-one-shadow {
+    padding: 7px;
+    margin-bottom: 15px;
+  }
+  .fa-circle {
+    display: none;
+  }
+  /** Section Two css**/
+  .section-two {
+    background-color: ffffff;
+    /* border: 10px solid #00252c; */
+    border-left: 0px;
+  }
+  .progress-shadow {
+    padding: 5px;
+    box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 1px;
+    border-radius: 10px;
+  }
+  .section-two i {
+    color: #356b8b;
+  }
+  .section-two .intermediate-line {
+    background-color: #356b8b;
+    border: 2px solid #356b8b;
+  }
+  .section-two h2,
+  h3 {
+    color: #356b8b;
+    font-weight: 800;
+    font-size: 28px;
+  }
+  .section-two p {
+    color: #686868;
+  }
+  .left-content {
+    width: 35%;
+  }
+  .left-content h5 {
+    color: #709cf7;
+  }
+  .right-content {
+    width: 65%;
+  }
+  .right-content h5 {
+    color: #2c3131;
+  }
+  .skills-hobbies-container h5 {
+    color: #356b8b;
+    font-weight: 500;
+  }
+  .skills-hobbies-container p {
+    width: 35%;
+  }
+  .skills-hobbies-container progress {
+    width: 55%;
+    height: 26px;
+  }
+  .references {
+    background-color: #e8e8e8;
+    padding: 10px;
+  }
+}
