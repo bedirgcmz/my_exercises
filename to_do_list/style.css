@@ -5,13 +5,31 @@
   font-family: "Nunito", sans-serif;
 }
 
+html {
+  background: url(images/bg.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #02020269;
+  z-index: -1;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .container {
   width: 90%;
   margin: auto;
   padding: 20px;
 }
 .card {
-  background-color: #ccfbed30;
+  background-color: #e7f2ef;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -78,10 +96,22 @@ hr {
   list-style: none;
   color: #06aa8c;
 }
-.list-item i {
+.task-done {
+  text-decoration: line-through;
+  color: gray !important;
+}
+.list-item .fa-trash-alt {
   padding: 0px 3px;
   padding: 10px;
   color: #f3467a;
+}
+.list-item .fa-circle-check {
+  padding: 0px 3px;
+  padding: 10px;
+  color: #827c7c;
+}
+.list-item .task-done-icon {
+  color: #06aa8c;
 }
 .list-item i:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
