@@ -164,3 +164,14 @@ hr {
 #list-item-add-button:hover {
   background-color: #06aa8c;
 }
+.not-todo {
+  color: #f3467a;
+  padding: 10px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.fa-hand-peace {
+  margin-left: 7px;
+}
