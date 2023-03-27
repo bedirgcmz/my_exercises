@@ -164,6 +164,14 @@ hr {
 #list-item-add-button:hover {
   background-color: #06aa8c;
 }
+@media screen and (max-width: 520px) {
+  #list-item-add-button {
+    width: 20%;
+  }
+  #list-item-input {
+    width: 80%;
+  }
+}
 .not-todo {
   color: #f3467a;
   padding: 10px;
